@@ -31,9 +31,9 @@ Please follow the below instructions to run different branches of this repositor
    ```sh
    cd redux-lws
    ```
-4. Checkout/switch to your desired branch. For example to switch to branch 1.2 -
+4. Checkout/switch to your desired branch. For example to switch to branch 1.3 -
    ```sh
-   git checkout 1.2
+   git checkout 1.3
    ```
 5. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
