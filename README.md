@@ -36,3 +36,9 @@ Please follow the below instructions to run different branches of this repositor
    git checkout 1.1
    ```
 5. Follow the corresponding branch's README file instruction to run code.
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[tableofcontent-shield]: https://img.icons8.com/external-flatart-icons-flat-flatarticons/28/undefined/external-direction-business-and-teamwork-flatart-icons-flat-flatarticons.png
+[rocketicon-shield]: https://img.icons8.com/arcade/30/undefined/experimental-rocket-arcade.png
