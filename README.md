@@ -35,7 +35,7 @@ Please follow the below instructions to run different branches of this repositor
    ```sh
    git checkout 1.1
    ```
-5. Follow the corresponding branch's README file instruction to run code.
+5. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
