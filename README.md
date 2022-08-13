@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
  <p align="center">
-    <img src="/images/redux.png" alt="Logo" width="80" height="80" />
+    <img src="/images/redux.png" alt="Logo"  width="200" height="100"   style="background-color:white;" />
     <h3 align="center ">THINK IN A REDUX WAY</h3>
 </p>
 
