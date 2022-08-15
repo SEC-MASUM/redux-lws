@@ -19,6 +19,10 @@ const decrement = (value) => {
   return {
     type: DECREMENT,
     payload: value,
+    property: {
+      a: 5,
+      b: 6,
+    },
   };
 };
 
@@ -38,6 +42,15 @@ function counterReducer(state = initialState, action) {
     return {
       ...state,
       value: state.value - action.payload,
+    };
+  } else if (action.type === ITEST) {
+    // example of immutably change of state
+    return {
+      ...state,
+      property: {
+        ...state.property,
+        b: state.property.b + 1,
+      },
     };
   } else {
     return state;
