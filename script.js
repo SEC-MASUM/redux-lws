@@ -43,16 +43,18 @@ function counterReducer(state = initialState, action) {
       ...state,
       value: state.value - action.payload,
     };
-  } else if (action.type === ITEST) {
-    // example of immutably change of state
-    return {
-      ...state,
-      property: {
-        ...state.property,
-        b: state.property.b + 1,
-      },
-    };
-  } else {
+  }
+  // else if (action.type === ITEST) {
+  //   // example of immutably change of state
+  //   return {
+  //     ...state,
+  //     property: {
+  //       ...state.property,
+  //       b: state.property.b + 1,
+  //     },
+  //   };
+  // }
+  else {
     return state;
   }
 }
